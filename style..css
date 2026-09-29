@@ -3,13 +3,32 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px; 
   color: #333333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px;
+  }
 
-}
 
 h1, h2, h3, h4, h5, h6 {
   color: #1f0433;
   margin-top: 0;
+}
+
+  .texto-presentacion {
+  background-color: #ede6e6; /* Fondo diferente para la sección */
+  padding: 25px; /* Espacio interno */
+  border: 2px solid #cbd5e0; /* Borde alrededor de la sección */
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 20px 0;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+.link-contacto {
+  display: inline-block;
+  background-color: #4a0a4d; /* Color de fondo del botón */
+  color: #f4eff2; /* Color del texto */
+  padding: 12px 24px; /* Espaciado interno del botón */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
